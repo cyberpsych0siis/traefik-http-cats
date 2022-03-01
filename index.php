@@ -14,12 +14,9 @@
         }
 
         .center {
-            border: 2px solid blue;
             margin: auto;
             position: relative;
             text-align: center;
-            top: 50%;
-            width: 20%;
         }
     </style>
 </head>
