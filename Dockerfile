@@ -1,7 +1,7 @@
 FROM php:8-apache
 
 LABEL traefik.http.middlewares.errorcats.errors.status 404,403,418,500-599
-LABEL traefik.http.middlewares.errorcats.errors.service httpcats-public
+LABEL traefik.http.middlewares.errorcats.errors.service httpcats-prod
 LABEL traefik.http.middlewares.errorcats.errors.query /?code={status}
 
 WORKDIR /var/www/html
